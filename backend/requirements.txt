@@ -1,0 +1,20 @@
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+pydantic==2.9.2
+pydantic-settings==2.5.2
+sqlalchemy==2.0.35
+psycopg[binary]==3.2.2
+alembic==1.13.3
+redis==5.0.8
+passlib[bcrypt]==1.7.4
+# passlib 1.7.4 probes bcrypt's `__about__.__version__` attribute, which bcrypt>=4.1 removed -
+# pin to the last compatible 4.x release rather than pulling in whatever `passlib[bcrypt]` resolves.
+bcrypt==4.0.1
+python-jose[cryptography]==3.3.0
+authlib==1.3.2
+itsdangerous==2.2.0
+slowapi==0.1.9
+stripe==10.12.0
+python-multipart==0.0.9
+httpx==0.27.2
+email-validator==2.2.0
