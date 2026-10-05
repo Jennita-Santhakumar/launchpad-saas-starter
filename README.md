@@ -1,5 +1,7 @@
 # Orbit
 
+> **Maintained by [Jennita S](https://github.com/Jennita-Santhakumar)** · [LinkedIn](https://linkedin.com/in/jennitas) · jennitasanthakumar0@gmail.com
+
 [![CI](https://github.com/KabileshRajaselvan/orbit-saas-kit/actions/workflows/ci.yml/badge.svg)](https://github.com/KabileshRajaselvan/orbit-saas-kit/actions/workflows/ci.yml)
 
 A multi-tenant SaaS starter kit: JWT + OAuth authentication, workspace/tenant isolation with
@@ -150,3 +152,7 @@ through the live HTTP API on this machine: signup, workspace creation, a mock su
 usage-event ingestion, the analytics summary/timeseries endpoints, and a real signed
 `customer.subscription.updated` webhook that flipped a subscription's status in Postgres from
 `active` to `past_due` - end to end, no shortcuts.
+
+## Credits
+
+Developed by Kabilesh Rajaselvan with contributions from Jennita S.
